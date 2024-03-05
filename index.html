@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Bandi, Om Preetham">
+  <meta name="description" content="Tic Tac Toe game designed with HTML, CSS and JS.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tic Tac Toe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;500;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+  
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/popover.css">
+</head>
+<body>
+  <main>
+    <section class="game-container">
+      <section class="top-container">
+        <div class="game-icon">
+          <span class="x-icon">X</span>
+          <span class="o-icon">O</span>
+        </div>
+        <div class="turns">
+          <span class="turns-icon js-turns-icon">X</span>
+          <span class="turn">TURN</span>
+        </div>
+        <div class="reset">
+          <button class="reset-button js-reset-button">↻</button>
+        </div>
+      </section>
+      <section class="tiles-container js-tile-container">
+      </section>
+      <section class="score-container js-score-container">
+      </section>
+    </section>
+    <section class="popover-container js-popover-container">
+    </section>
+
+  </main>
+
+  <script src="scripts/main.js"></script>
+</body> 
+</html>
